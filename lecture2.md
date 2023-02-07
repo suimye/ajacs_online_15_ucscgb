@@ -134,7 +134,7 @@ NCBI Refseq Genes**トラックの一番上の転写産物の配列(NM_001030287
 
 ここで注意点があります。図に示したようにGet DNA for NM...という欄がありますがこれをクリックしてもmRNAの配列を取得ではなく、転写産物の座標領域全体の塩基配列を取得してしまいます。この状況からmRNAの配列を取得するには**私が知る限りは2つの方法**があります。
 
-- 1. **Show details for NM_00~**から、NCBIのリンクをたどり、FASTAを出力させる。
+- 1. **Show details for NM_00~**から、NCBIのリンクをたどり、FASTAを出力させる。GENCODEの場合は、Show detailsからmRNAのリンクをクリックする。
 - 2. Table browserに移動してアクセッションナンバーを入力して配列を取得する。
 
 個人的にはmRNAを１種類だけ調べるときは1のやり方の方がおすすめで、2のやり方はtable browserで行うにはやや面倒なやり方のように思います。ここでは２つとも紹介します。
@@ -152,6 +152,10 @@ NM_00~をクリックしてください。NCBI Genbankに移動できるはず�
 矢印のFASTAをクリックしてください。すると、mRNAの配列がfasta形式で表示されますので、コピーしておいてください。ファイルに保存したい場合は、**send to**をクリックするとプルダウンメニューが表示され、Fileを選択すると操作できます。
 
 ![スクリーンショット 2023-01-16 14 49 42](https://user-images.githubusercontent.com/296176/217183787-8090e0bc-160a-4426-86a0-d11f432ae43c.png)
+
+   **GENCODEの場合**
+   先ほどと同様に以下のShow detailsの中にあるmRNA情報をクリックしてください。こちらの方が簡単ですね。
+ ![スクリーンショット 2023-02-07 17 34 23](https://user-images.githubusercontent.com/296176/217198822-64131aa3-2ffe-473e-9e35-0b91eb2c57bf.png)
 
 2. UCSC GBのTable browserを利用する
 
