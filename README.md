@@ -1,0 +1,2 @@
+# ajacs_online_15_ucscgb
+2023.1.26に行われたAJACSオンライン15のUCSCGBのハンズオン資料
